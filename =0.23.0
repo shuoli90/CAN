@@ -1,0 +1,22 @@
+Requirement already satisfied: huggingface-hub in /home/lishuo1/anaconda3/envs/safe-rlhf/lib/python3.11/site-packages/huggingface_hub-0.22.2-py3.8.egg (0.22.2)
+Collecting huggingface-hub
+  Downloading huggingface_hub-0.23.0-py3-none-any.whl.metadata (12 kB)
+Requirement already satisfied: filelock in /home/lishuo1/anaconda3/envs/safe-rlhf/lib/python3.11/site-packages (from huggingface-hub) (3.13.1)
+Requirement already satisfied: fsspec>=2023.5.0 in /home/lishuo1/anaconda3/envs/safe-rlhf/lib/python3.11/site-packages (from huggingface-hub) (2023.10.0)
+Requirement already satisfied: packaging>=20.9 in /home/lishuo1/anaconda3/envs/safe-rlhf/lib/python3.11/site-packages (from huggingface-hub) (23.2)
+Requirement already satisfied: pyyaml>=5.1 in /home/lishuo1/anaconda3/envs/safe-rlhf/lib/python3.11/site-packages (from huggingface-hub) (6.0.1)
+Requirement already satisfied: requests in /home/lishuo1/anaconda3/envs/safe-rlhf/lib/python3.11/site-packages (from huggingface-hub) (2.31.0)
+Requirement already satisfied: tqdm>=4.42.1 in /home/lishuo1/anaconda3/envs/safe-rlhf/lib/python3.11/site-packages (from huggingface-hub) (4.65.0)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /home/lishuo1/anaconda3/envs/safe-rlhf/lib/python3.11/site-packages (from huggingface-hub) (4.9.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in /home/lishuo1/anaconda3/envs/safe-rlhf/lib/python3.11/site-packages (from requests->huggingface-hub) (2.0.4)
+Requirement already satisfied: idna<4,>=2.5 in /home/lishuo1/anaconda3/envs/safe-rlhf/lib/python3.11/site-packages (from requests->huggingface-hub) (3.7)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /home/lishuo1/anaconda3/envs/safe-rlhf/lib/python3.11/site-packages (from requests->huggingface-hub) (2.1.0)
+Requirement already satisfied: certifi>=2017.4.17 in /home/lishuo1/anaconda3/envs/safe-rlhf/lib/python3.11/site-packages (from requests->huggingface-hub) (2024.2.2)
+Downloading huggingface_hub-0.23.0-py3-none-any.whl (401 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 401.2/401.2 kB 7.1 MB/s eta 0:00:00
+Installing collected packages: huggingface-hub
+  Attempting uninstall: huggingface-hub
+    Found existing installation: huggingface-hub 0.22.2
+    Uninstalling huggingface-hub-0.22.2:
+      Successfully uninstalled huggingface-hub-0.22.2
+Successfully installed huggingface-hub-0.23.0

@@ -1,0 +1,19 @@
+torch >= 1.13
+transformers >= 4.37
+datasets
+tokenizers >= 0.13.3
+accelerate
+deepspeed
+numpy
+scipy
+sentencepiece
+wandb
+tensorboard
+optree
+matplotlib
+tqdm
+rich
+peft
+trl==0.8.6
+accelerate
+bitsandbytes
