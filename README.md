@@ -23,3 +23,17 @@ conda activate safe-rlhf
 - To run primal optimization, please enter into safe-rlhf/algorithms/cdpo*
 -- run ```python dpo.py --lamb [LAMB] --output_dir [OUTPUT_DIR]``` for MoCAN
 -- run ```python dpo_alg2.py --lamb [LAMB] --output_dir [OUTPUT_DIR]`` for PeCAN
+
+# Citation
+Please feel free to email us at [Xinmeng Huamg](mailto:xinmengh@sas.upenn.edu), [Shuo Li](mailto:lishuo1@seas.upenn.edu), or [Dongsheng Ding](mailto: dongshed@seas.upenn.edu). If you find this work useful in your own research, please consider citing our work:
+```
+@misc{huang2024oneshotsafetyalignmentlarge,
+      title={One-Shot Safety Alignment for Large Language Models via Optimal Dualization}, 
+      author={Xinmeng Huang and Shuo Li and Edgar Dobriban and Osbert Bastani and Hamed Hassani and Dongsheng Ding},
+      year={2024},
+      eprint={2405.19544},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2405.19544}, 
+}
+```
