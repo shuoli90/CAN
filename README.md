@@ -1,4 +1,4 @@
-This is the repo for the submission *One-Shot Safety Alignment for Large Language Models via Optimal Dualization*.
+This is the repo for the submission [*One-Shot Safety Alignment for Large Language Models via Optimal Dualization*](https://arxiv.org/abs/2405.19544).
 
 # The folders are organized as follows:
 - *safe-rlhf*: contain our optimal and dual optimization algorithms; the dual optimization implementations are under *safe-rlhf/trainer*; and primal optimization algorithms are under *algorithm/cdpo* fodler; evaluation 
